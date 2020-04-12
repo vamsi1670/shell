@@ -10,7 +10,7 @@ echo "Command is Failed"
 fi
 
 If you also want to redirect the error use "2> /dev/null" in the script.
-Example:
+##Example:
 2.sh
 lserre -alrt 2> /dev/null
 if [ $? -eq 0 ]
