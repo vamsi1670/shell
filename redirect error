@@ -1,7 +1,7 @@
-#Standard output will be reditrected if we just use "> /dev/null" symbol.
+#Standard output will be redirected if we just use "> /dev/null" symbol.
 ##Example:
 1.sh
-ls -alrt > /dev/null
+ls -alrt > /dev/null #This will redirect the output.
 if [ $? -eq 0 ]
 then
 echo "Command is Successful"
@@ -12,7 +12,7 @@ fi
 If you also want to redirect the error use "2> /dev/null" in the script.
 ##Example:
 2.sh
-lserre -alrt 2> /dev/null
+lserre -alrt 2> /dev/null # This will redirect the error.
 if [ $? -eq 0 ]
 then
 echo "Command is Successful"
